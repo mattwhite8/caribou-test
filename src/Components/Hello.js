@@ -1,3 +1,9 @@
-const Hello = () => <div>Hello, World!</div>
+import React, { Component } from "react";
 
-export default Hello;
+class Hello extends Component {
+    render() {
+        return ( 
+            <div>Hello, World.</div>
+        );
+    }
+}export default Hello;

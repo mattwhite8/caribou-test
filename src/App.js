@@ -1,5 +1,6 @@
 import Hello from './Components/Hello';
 import Another from './Components/Another';
+import OneMore from './Components/OneMore';
 import logo from './logo.svg';
 import './App.css';
 
@@ -21,6 +22,7 @@ function App() {
         </a>
         <Hello />
         <Another />
+        <OneMore />
       </header>
     </div>
   );
